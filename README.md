@@ -66,7 +66,7 @@ Minion:  f7:0b:26:49:ea:fc:9a:64:05:38:b8:0b:2e:a1:fe:83:b4:91:51:f1:30:4a:f5:f2
 The output above confirms that our minion has been added, now accept the Minion as below.
 
 Now run the following command on the "salt master"
-``` bash
+```
 $ sudo salt-key -a Minion1
 The following keys are going to be accepted:
 Unaccepted Keys:
