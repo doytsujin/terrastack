@@ -81,3 +81,10 @@ $ sudo salt Minion1 test.ping
 Minion:
     True
 ```
+
+
+# Run Remote commands on Minions from the Master
+Now you can run remote commands on the minions from the master, for example installing nginx with the following command
+``` bash
+sudo salt Minion1 pkg.install nginx
+```
