@@ -8,6 +8,6 @@ Before you run terraform apply you need:
 After the apply finishes successfuly we still need to do some manual configuration.
 
 To start you need to ssh into the minion vm. Once there we will edit the file "/etc/salt/minion" using root privileges and the text editor "vim"
-``` sh
+``` bash
 sudo vim /etc/salt/minion
 ```
