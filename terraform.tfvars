@@ -1,6 +1,5 @@
 project = "ccfs-igniters-sbx-002"
 region = "us-central1"
 zone = "us-central1-c"
-user = "chris"
 ssh_public_key_path = "~/.ssh/id_rsa.pub"
 ssh_private_key_path = "~/.ssh/id_rsa"
